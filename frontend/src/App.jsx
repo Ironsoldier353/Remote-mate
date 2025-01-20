@@ -3,6 +3,7 @@ import HomePage from './routes/HomePage';
 import LoginPage from './routes/LoginPage';
 import ProfilePage from './routes/ProfilePage';
 import Header from './components/Header';
+import RegisterPage from './routes/RegisterPage';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<RegisterPage />} />
           <Route path="/profile" element={<ProfilePage />} />
         </Routes>
       </div>
